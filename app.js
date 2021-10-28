@@ -182,6 +182,8 @@ clipboardEl.addEventListener(`click`, () => {
   // NOTE: Some execCommand commands/arguments are not supported by all browsers. However, copy is an execCommand command that all browsers support.
   document.execCommand(`copy`);
 
-  // 
+  // Removing the textarea element from the webpage/document
   textarea.remove();
+
+  
 });
