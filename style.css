@@ -33,7 +33,7 @@ h2{
     /* Button do NOT inherit text color. Must apply a new text color directly to the element */
     color: #eef1ef;
 /* Changes the cursor when hovering over a button */
-cursor: crosshair;
+cursor: pointer;
 padding: 8px 12px;
 }
 
